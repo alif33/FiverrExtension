@@ -7,7 +7,7 @@ const counterLoop = (t) => {
   },1000)
 }
 (myFunction = () => {
-  let pages = ['https://www.fiverr.com/alif214221?up_rollout=true', 'https://www.fiverr.com/users/alif214221/seller_dashboard', 'https://www.fiverr.com/users/alif214221/manage_gigs', 'https://www.fiverr.com/users/alif214221/requests']
+  let pages = ['https://www.fiverr.com/devroma?up_rollout=true', 'https://www.fiverr.com/users/devroma/seller_dashboard', 'https://www.fiverr.com/users/devroma/manage_gigs', 'https://www.fiverr.com/users/devroma/requests']
   let min = 230,
     max = 450,
     minPage=0,
