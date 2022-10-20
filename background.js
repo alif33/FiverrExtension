@@ -7,9 +7,15 @@ const counterLoop = (t) => {
   },1000)
 }
 (myFunction = () => {
-  let pages = ['https://www.fiverr.com/devroma?up_rollout=true', 'https://www.fiverr.com/users/devroma/seller_dashboard', 'https://www.fiverr.com/users/devroma/manage_gigs', 'https://www.fiverr.com/users/devroma/requests']
-  let min = 230,
-    max = 450,
+  let pages = [
+    'https://www.fiverr.com/devroma?up_rollout=true', 
+    'https://www.fiverr.com/users/devroma/requests'
+    'https://www.fiverr.com/users/devroma/seller_dashboard', 
+    'https://www.fiverr.com/users/devroma/manage_gigs', 
+    'https://www.fiverr.com/users/devroma/requests'
+  ]
+  let min = 150,
+    max = 260,
     minPage=0,
     maxPage=4;
   let time = Math.floor(Math.random() * (max - min + 1) + min);
